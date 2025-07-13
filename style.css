@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+button.toggle {
+  padding: 4px 10px;
+  background-color: #0c3d72;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
