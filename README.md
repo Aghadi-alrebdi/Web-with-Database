@@ -6,7 +6,7 @@ User Submission and Status Toggle System
 ---
 
 ## Objective  
-The objective of this project is to build a responsive web application that allows users to submit their name and age through a form. The submitted data is saved to a MySQL database and displayed in a dynamic table with real-time status toggling. The project demonstrates full-stack development using HTML, CSS, PHP, and MySQL.
+The objective of this project is to build a responsive web application that allows users to submit their name and age through a form. The submitted data is saved to a **MySQL** database and displayed in a dynamic table with real-time status toggling. The project demonstrates full-stack development using **HTML**, **CSS**, **PHP**, and **MySQL**.
 
 ---
 
@@ -26,11 +26,13 @@ Displays all user submissions in a structured table format showing:
 - Age  
 - Status (0 or 1)  
 - Action (toggle button to switch status)
+The table is generated dynamically using **PHP** and fetches records from a **MySQL** database.
 
 ### Toggle Functionality  
 Each record includes a **Toggle** button:
 - Changes the user’s status between 0 and 1
 - Updates are reflected immediately on the interface after clicking
+- The toggling logic is handled via the backend using **PHP**, which updates the status in the **MySQL** database and reloads the updated values.
 
 ---
 
