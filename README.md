@@ -34,11 +34,13 @@ Each record includes a **Toggle** button:
 
 ---
 
-## Key Features:
-- Clean table view with real-time status switching
-- CSS animations for smoother interactions
-- Modular PHP structure for maintainability
-
+## Features  
+- Responsive web form with **name** and **age** fields
+- Form data is stored in a **MySQL database**
+- All submitted entries are shown in a dynamic HTML table
+- Each entry has a **Toggle** button to update the `status` (0 or 1)
+- Status changes are updated instantly on the page
+- Clean interface with smooth button transitions using CSS
 ---
 
 ## Tools and Platform  
@@ -58,7 +60,7 @@ Below are screenshots demonstrating the interface and features:
 - **Form Interface**  
   ![Form Screenshot](form.png)
 
-- **User Table**  
+- **Mysql Interface**  
   ![Table Screenshot](table.png)
 
 ---
